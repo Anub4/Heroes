@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddHeroActivity">
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/etHeroName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hero name"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/etHeroDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hero Description"
+        android:layout_margin="20dp"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="SAVE"/>
+
+</LinearLayout>
